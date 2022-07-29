@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+void PrintArray(string[] col)
+{
+    int count = col.Length;
+    for (int position = 0; position < count; position++)
+    {
+        Console.Write($"{col[position]} ");
+    }
+}
